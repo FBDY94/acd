@@ -1,0 +1,71 @@
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local error = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+ 
+--Properties:
+ 
+error.Name = "error"
+error.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+error.ResetOnSpawn = false
+ 
+TextLabel.Parent = error
+TextLabel.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel.Position = UDim2.new(0.357811272, 0, 0.256502986, 0)
+TextLabel.Size = UDim2.new(0, 325, 0, 20)
+TextLabel.Font = Enum.Font.SourceSansLight
+TextLabel.Text = "Bedwars Anti Cheat disable"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 18.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(106, 106, 106)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+TextLabel.Active = true
+TextLabel.Draggable = true
+ 
+Frame.Parent = TextLabel
+Frame.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Frame.BorderColor3 = Color3.fromRGB(170, 0, 255)
+Frame.Position = UDim2.new(0, 0, -0.0147367716, 0)
+Frame.Size = UDim2.new(0, 325, 0, 2)
+ 
+Frame_2.Parent = TextLabel
+Frame_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Frame_2.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_2.Position = UDim2.new(0, 0, 0.985263467, 0)
+Frame_2.Size = UDim2.new(0, 325, 0, 79)
+ 
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel_2.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_2.Position = UDim2.new(0.0246153846, 0, 3.89999938, 0)
+TextLabel_2.Size = UDim2.new(0, 309, 0, 13)
+TextLabel_2.Font = Enum.Font.SourceSansLight
+TextLabel_2.Text = "Made by Hacboat"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_2.TextStrokeTransparency = 0.000
+ 
+TextLabel_3.Parent = TextLabel
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel_3.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_3.Position = UDim2.new(0.0246153846, 0, 1.44999921, 0)
+TextLabel_3.Size = UDim2.new(0, 309, 0, 39)
+TextLabel_3.Font = Enum.Font.SourceSansLight
+TextLabel_3.Text = "error 107 : the anti cheat disble is error update!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 7.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(85, 85, 85)
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
